@@ -23,7 +23,7 @@ const MAX_ERROR = 'Este campo no puede contener más de ${max} caracteres'
 const useStyles = makeStyles((theme) => ({
   container: {
     maxWidth: "1200px",
-    margin: "100px auto",
+    margin: "20px auto",
   },
 }));
 
