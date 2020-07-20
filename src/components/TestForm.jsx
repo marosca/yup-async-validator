@@ -81,21 +81,3 @@ export default function TestForm() {
     </Formik>
   );
 }
-
-// let jimmySchema = string().test(
-//   'is-jimmy',
-//   '${path} is not Jimmy',
-//   value => value === 'jimmy',
-// );
-
-// // or make it async by returning a promise
-// let asyncJimmySchema = string().test(
-//   'is-jimmy',
-//   '${path} is not Jimmy',
-//   async (value) => (await fetch('/is-jimmy/' + value)).responseText === 'true',
-// });
-
-// await schema.isValid('jimmy'); // => true
-// await schema.isValid('john'); // => false
-
-// https://odissey.prod-01.k8s.masmovil.com/operators/mobile/666676869
